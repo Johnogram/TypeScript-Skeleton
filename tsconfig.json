@@ -3,7 +3,6 @@
     "target": "es2019",
     "module": "commonjs",
     "moduleResolution": "node",
-    "baseUrl": "./src",
     "lib": [
       "es2019",
       "es2020.promise",
@@ -20,5 +19,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
-  }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
